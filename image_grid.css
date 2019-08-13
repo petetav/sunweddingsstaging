@@ -1,0 +1,66 @@
+
+.flex-container {
+  width:80%;
+  margin: 0 auto;
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: red;
+  grid-template-columns: minmax(100px, 200px) 1fr 1fr;
+  justify-content: space-between;
+}
+
+.flex-container > div {
+  flex-grow: 1;
+  background-color: #f1f1f1;
+  width: 200px;
+  height:200px;
+  margin:10px 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+/* constant aspect ratio */
+
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  color: #777777;
+  background-color: #bbbbbb;
+  border: 1vw solid white;
+  font-size: 12vw;
+  text-align: center;
+  padding-top: 42vw;
+  flex: 0 0 100%;
+  height: 100vw;
+}
+
+@media screen and (min-width: 640px) {
+  .item {
+    flex: 0 0 50%;
+    height: 50vw;
+    font-size: 6vw;
+    padding-top: 21vw;
+    border-width: 0.5vw;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .not4or5 {
+    flex: 0 0 33.3%;
+    height: 33.3vw;
+    font-size: 4vw;
+    padding-top: 14vw;
+  }
+}
