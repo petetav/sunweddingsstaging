@@ -1,0 +1,220 @@
+/* CSS Variables */
+/* Globals */
+body {
+  font-family: "Roboto" ,  sans-serif;
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: 100vw;
+  height: 25vw; }
+
+h1 {
+  color: #08225e; }
+
+h3 {
+  font-size: x-large; }
+
+p {
+  color: grey; }
+
+/*top header */
+@media screen and (min-width: 730px) {
+  .top-text {
+    text-align: right;
+    margin-right: 10vw;
+    padding-top: 2rem;
+    font-size: .8rem;
+    color: white; } }
+
+@media screen and (max-width: 730px) {
+  .top-text {
+    display: none; } }
+
+/*banner header  */
+.banner {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 500px;
+  /* from CSS-tricks  */
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.6)), url(../images/beach-view-tinied.jpg);
+  background-size: cover;
+  /*background-position: */
+  background-repeat: no-repeat;
+  overflow: hidden; }
+
+.title_and_menu {
+  width: 500px;
+  max-width: 800px;
+  height: auto; }
+
+.title {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: white;
+  padding-top: 12%;
+  text-transform: uppercase;
+  font-size: 45px; }
+
+/*menu from css-tricks */
+nav {
+  margin-left: 30%;
+  margin-right: 30%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5%; }
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 0;
+  text-align: center; }
+
+a:visited {
+  color: light grey; }
+
+a:hover {
+  border-bottom: 3px solid white; }
+
+a:active {
+  color: green; }
+
+/* About */
+.page-title {
+  text-align: center;
+  color: grey;
+  margin: 3rem 0 4rem 0; }
+
+@media screen and (min-width: 730px) {
+  .about {
+    display: grid;
+    width: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    /*grid-template-columns: 1fr 3fr;
+	grid-column-gap: 5%; */ }
+  .mugshot {
+    grid-column-start: 1;
+    justify-self: center;
+    padding-left: 2rem;
+    margin-right: 3rem; }
+  .blurb {
+    grid-column-start: 2;
+    line-height: 1.4;
+    padding-right: 2rem;
+    text-align: justify;
+    color: grey; } }
+
+@media screen and (max-width: 730px) {
+  img.marian {
+    float: left;
+    padding: 2rem; }
+  .blurb {
+    padding: 0 2rem 0 3rem;
+    text-align: justify;
+    color: grey; } }
+
+/*  Gallery  */
+.flex-container {
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: lightgray;
+  grid-template-columns: minmax(100px, 200px) 1fr 1fr;
+  justify-content: space-between; }
+
+.flex-container > div {
+  flex-grow: 1;
+  background-color: #f1f1f1;
+  width: 200px;
+  height: 200px;
+  margin: 10px 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px; }
+
+/* Services */
+.services {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: justify; }
+
+.services_headline {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 5 rem;
+  color: grey; }
+
+.services h3 {
+  color: blue;
+  margin: 2.2rem 0 0.8rem 0;
+  font-size: 1.3rem; }
+
+.services h2 {
+  color: green; }
+
+.services ul {
+  color: orange;
+  padding-left: 20%; }
+
+/*Welcome - index.html */
+.welcome {
+  margin: auto;
+  width: 75%;
+  max-width: 1000px;
+  line-height: 2; }
+
+.welcome h2 {
+  color: #08225e; }
+
+.welcome p {
+  color: grey; }
+
+/*  footer */
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 30px;
+  color: white;
+  background-color: #08225e; }
+
+.footer img {
+  margin-right: 20px;
+  margin-top: 5px; }
+
+.footer_content {
+  display: inline-block;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 10px;
+  color: #ccde58;
+  font-size: .8rem; }
+
+/* Jotform form container */
+.jotform_container {
+  width: 80%;
+  border: 1px solid #08225e;
+  border-radius: 3px;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 3rem; }
+
+/* thank you page */
+.thank_you {
+  width: 80%;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 3rem; }
+
+/*# sourceMappingURL=main.map */
