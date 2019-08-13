@@ -12,7 +12,23 @@
 <section class="welcome">
 <br><br>
 
- <h2>Welcome to Sun Weddings Portugal </h2>
+	<p>Hi Guys! I am Marian and I am Irish Wedding Planner and Wedding Celebrant based in the Algarve.</p>
+		
+<p>After graduating from the University of Limerick in Business and Human Resources, my qualification took me on another path! I worked in Marketing and Events in New York and London. This experience brought me to my real passion in life, Wedding and Event Planning.</p>
+<p>9 years ago my husband and I set up an online Wedding Magazine in Ireland, to help couples plan their dream weddings at home. Then we decided to take the plunge and move our family to sunny Portugal and continue our wedding planning business over here!<p>
+<p>For me Wedding Planning is about creating a bespoke, unique and unforgettable day for all my couples. Everyone's story is different and I like to bring out their personalities and passions and fuse it into their wedding day.</p>
+
+
+
+
+
+
+
+
+
+
+
+ <!--<h2>Welcome to Sun Weddings Portugal </h2>
 
 	<p> Welcome to a great journey. One that I've trod a load of times with lots of people but will probably be a new one for you. It's daunting. Let's make no mistake about it; there will be lots of people expecting "something" and it's up to you to provide it. But let's be honnest, this is a job for professionals. And that's where we come in. No one can be expected to know how to plan a wedding any more than they can be expected to land a jumbo jet (and that comes from a friend who did exactly that). No; wedding planning is a specialised business and even more so when it's in a foreign country. So the country we chose to bring up our children and start our business was Portugal. Why? Well the people are lovely, the countryside spectacular and the exchange rate great. (It's still only £2.50 a pint!) And the weather superb - mostly :)</p>
 
@@ -27,7 +43,7 @@ Choose the date and the place. So the combination should give you great weather 
 
 <p>Happy travelling </p>
 
-<p>Marian </p>
+<p>Marian </p> -->
 
 <br>
 				
