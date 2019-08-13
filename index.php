@@ -27,7 +27,7 @@ Choose the date and the place. So the combination should give you great weather 
 
 <p>Happy travelling </p>
 
-<p>Marian</p>
+<p>Marian </p>
 
 <br>
 				
