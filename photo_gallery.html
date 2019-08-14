@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>Responsive Image Gallery | WP-Mix</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=1">
+		<meta name="google-site-verification" content="ZXlhHGaqixdQ___d_C2BT4FrV6UlenRGM-m7gqWazKU">
+		<meta name="keywords" content="tutorials, snippets, code, WordPress, PHP, JavaScript, CSS, HTML, htaccess, HTTP">
+		<meta name="description" content="Simple example of a responsive square-thumbnail popup image gallery.">
+		<meta name="msapplication-TileImage" content="/mstile.png">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ededea">
+		<meta name="application-name" content="WP-Mix">
+		<meta name="robots" content="index,follow">
+		<link rel="author" href="/humans.txt">
+		<link rel="canonical" href="https://wp-mix.com/gallery/">
+		<link rel="image_src" href="/wp/wp-content/themes/wpmix/img/wp-mix.jpg">
+		<link rel="icon" type="image/png" href="/android.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/favicon.png" sizes="194x194">
+		<link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
+		<style>
+			.responsive-gallery {
+				width: 80%; margin: 40px auto; color: #333; font-family: sans-serif;
+				}
+				@media only screen and (max-width: 960px) {
+					.responsive-gallery { width: 95%; }
+					}
+					
+  			h1 { line-height: 24px; font-size: 24px; }
+  			h1 + p { line-height: 24px; font-size: 16px; }
+			a { color: #333; text-decoration: none; border-bottom: 1px solid #ccc; }
+			a:hover { color: #6b363e; border-bottom: 1px solid #6b363e; border-color: rgba(107,54,62,0.7); }
+			.return { margin: 0 0 30px 0; font-size: 12px; }
+			
+			.lightbox a, .lightbox a:hover,
+			.fancybox-overlay a, .fancybox-nav, .fancybox-close { border: 0; }
+		</style>
+		
+		
+		
+		<!-- DEMO -->
+		
+		<style>
+			.lightbox {
+				text-align: center;
+				}
+			.image-thumb {
+				position: relative; display: inline-block; height: 33.333%; margin: 0 10px 10px 0;
+				width: -moz-calc(33.333% - 20px); width: -webkit-calc(33.333% - 20px); width: calc(33.333% - 20px);
+				}
+			.image-thumb:nth-child(3n) { margin-right: 0; }
+			
+			.image-thumb a.fancybox,
+			.image-thumb a.fancybox img { display: block; width: 100%; height: 100%; margin: 0; padding: 0; }
+			
+			.image-thumb .image-title {
+				position: absolute; bottom: 0; left: 0;
+				box-sizing: border-box; width: 100%; margin: 0; padding: 2% 0;
+				color: #fff; background-color: #333; background-color: rgba(0,0,0,0.5);
+				line-height: 16px; font-size: 12px; text-align: center;
+				}
+			.fancybox-title {
+				-webkit-font-smoothing: antialiased; 
+				-moz-osx-font-smoothing: grayscale;
+				}
+			
+			@media only screen and (max-width: 480px) {
+				.image-thumb { width: 100%; height: auto; }
+			}
+		</style>
+		<link rel="stylesheet" href="/wp/wp-content/themes/wpmix/js/fancybox/fancybox.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="/wp/wp-content/themes/wpmix/js/fancybox/jquery.mousewheel.js"></script>
+		<script src="/wp/wp-content/themes/wpmix/js/fancybox/jquery.fancybox.js"></script>
+		
+		<!-- DEMO -->
+		
+		
+		
+	</head>
+	<body id="wp-mix">
+		
+		<div class="responsive-gallery">
+			
+			<h1><a href="/gallery/">Responsive Image Gallery</a></h1>
+			<p>
+				Live demo of a responsive image gallery with square thumbnails and full-size lightbox popups. 
+				Try resizing the browser to check out the responsiveness. View the HTML source for details. 
+				Tip: you can set this up to <a href="/image-gallery/">display user-submitted images</a>.
+			</p>
+			
+			<div class="return">
+				<a href="https://wp-mix.com/">Return to WP-Mix.com</a> | 
+				<a target="_blank" href="https://m0n.co/donate" title="Support this plugin">Make a donation</a>
+			</div>
+			
+			
+			
+			<!-- DEMO -->
+			
+			<div class="lightbox">
+				
+				<div class="image-thumb">
+					<a class="fancybox" rel="gallery" href="/wp/wp-content/uploads/gallery/001.jpg" title="Image #001-324x324">
+						<img src="/wp/wp-content/uploads/gallery/001-324x324.jpg" width="324" height="324">
+					</a>
+					<div class="image-title">Image Gallery: Image #001-324x324</div>
+				</div>
+				<div class="image-thumb">
+					<a class="fancybox" rel="gallery" href="/wp/wp-content/uploads/gallery/002.jpg" title="Image #002-324x324">
+						<img src="/wp/wp-content/uploads/gallery/002-324x324.jpg" width="324" height="324">
+					</a>
+					<div class="image-title">Image Gallery: Image #002-324x324</div>
+				</div>
+				<div class="image-thumb">
+					<a class="fancybox" rel="gallery" href="/wp/wp-content/uploads/gallery/003.jpg" title="Image #003-324x324">
+						<img src="/wp/wp-content/uploads/gallery/003-324x324.jpg" width="324" height="324">
+					</a>
+					<div class="image-title">Image Gallery: Image #003-324x324</div>
+				</div>
+				<div class="image-thumb">
+					<a class="fancybox" rel="gallery" href="/wp/wp-content/uploads/gallery/004.jpg" title="Image #004-324x324">
+						<img src="/wp/wp-content/uploads/gallery/004-324x324.jpg" width="324" height="324">
+					</a>
+					<div class="image-title">Image Gallery: Image #004-324x324</div>
+				</div>
+				<div class="image-thumb">
+					<a class="fancybox" rel="gallery" href="/wp/wp-content/uploads/gallery/005.jpg" title="Image #005-324x324">
+						<img src="/wp/wp-content/uploads/gallery/005-324x324.jpg" width="324" height="324">
+					</a>
+					<div class="image-title">Image Gallery: Image #005-324x324</div>
+				</div>
+				<div class="image-thumb">
+					<a class="fancybox" rel="gallery" href="/wp/wp-content/uploads/gallery/006.jpg" title="Image #006-324x324">
+						<img src="/wp/wp-content/uploads/gallery/006-324x324.jpg" width="324" height="324">
+					</a>
+					<div class="image-title">Image Gallery: Image #006-324x324</div>
+				</div>
+				<div class="image-thumb">
+					<a class="fancybox" rel="gallery" href="/wp/wp-content/uploads/gallery/007.jpg" title="Image #007-324x324">
+						<img src="/wp/wp-content/uploads/gallery/007-324x324.jpg" width="324" height="324">
+					</a>
+					<div class="image-title">Image Gallery: Image #007-324x324</div>
+				</div>
+				<div class="image-thumb">
+					<a class="fancybox" rel="gallery" href="/wp/wp-content/uploads/gallery/008.jpg" title="Image #008-324x324">
+						<img src="/wp/wp-content/uploads/gallery/008-324x324.jpg" width="324" height="324">
+					</a>
+					<div class="image-title">Image Gallery: Image #008-324x324</div>
+				</div>
+				<div class="image-thumb">
+					<a class="fancybox" rel="gallery" href="/wp/wp-content/uploads/gallery/009.jpg" title="Image #009-324x324">
+						<img src="/wp/wp-content/uploads/gallery/009-324x324.jpg" width="324" height="324">
+					</a>
+					<div class="image-title">Image Gallery: Image #009-324x324</div>
+				</div>
+				
+			</div>
+			
+			<!-- DEMO -->
+						
+			
+			
+		</div>
+		
+		
+		
+		<!-- DEMO -->
+		
+		<script>
+			/*
+				http://www.fancyapps.com/fancybox/
+			*/
+			jQuery(document).ready(function($){
+				$('.fancybox').fancybox({
+					openEffect  : 'none',
+					closeEffect : 'none',
+				});
+			});
+		</script>
+		
+		<!-- DEMO -->
+		
+		
+		
+	</body>
+</html>
