@@ -28,17 +28,17 @@
 		</p>
 	
 
-<div class="menu">
-	
-<!-- menu from css-tricks-->
+<!-- menu courtesy of https://labs.jensimmons.com/2017/01-003.html -->
 
-<nav>
-  <a href="index.php">Home</a>
-  <a href="about.php">About</a>
-<!--  <a href="services.php">Services</a> -->
-  <a href="https://www.facebook.com/sunweddingsportugal/?__tn__=%2Cd%2CP-R&eid=ARA-kiqHDF8WoJUn0hoi_KOJ804pFpC_59Cpcq5ymMxOOgtHeJFBeKH1DR-AFbLXCJ_dqnHxM61xsXbV" target="_blank">Blog</a>
-  <a href="contact.php">Contact</a>
+<nav class="responsive_nav">
+	 
+      <a href="index.php">Welcome</a>
+	  <a href="about.php">About us</a>
+	  <a href="packages.php">Packages</a> 
+	  <a href="testimonials.php">Testimonials</a> 
+	  <a href="https://www.facebook.com/sunweddingsportugal/?__tn__=%2Cd%2CP-R&eid=ARA-kiqHDF8WoJUn0hoi_KOJ804pFpC_59Cpcq5ymMxOOgtHeJFBeKH1DR-AFbLXCJ_dqnHxM61xsXbV" target="_blank">Blog</a>
+	  <a href="contact.php">Contact us</a>
 </nav>
-</div></div>
+</div>
 </header>		
 	

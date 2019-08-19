@@ -9,22 +9,18 @@
 <?php include ("includes/head.php"); ?>
 
 <!--blurb-->	
-<section class="welcome">
+<section class="blurb">
 <br><br>
 
-	<p>Hi Guys! I am Marian and I am Irish Wedding Planner and Wedding Celebrant based in the Algarve.</p>
+<div class="mugshot">
+	<img src="images/mugshot_marian.png" class="marian" alt="mugshot_marian" width="150 em" height='auto' >	
+</div>
+
+<p>Hi Guys! I am Marian and I am Irish Wedding Planner and Wedding Celebrant based in the Algarve.</p>
 		
 <p>After graduating from the University of Limerick in Business and Human Resources, my qualification took me on another path! I worked in Marketing and Events in New York and London. This experience brought me to my real passion in life, Wedding and Event Planning.</p>
 <p>9 years ago my husband and I set up an online Wedding Magazine in Ireland, to help couples plan their dream weddings at home. Then we decided to take the plunge and move our family to sunny Portugal and continue our wedding planning business over here!<p>
 <p>For me Wedding Planning is about creating a bespoke, unique and unforgettable day for all my couples. Everyone's story is different and I like to bring out their personalities and passions and fuse it into their wedding day.</p>
-
-
-
-
-
-
-
-
 
 
 

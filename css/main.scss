@@ -8,28 +8,10 @@ $footer_bgcolour:#08225e;
 
 
 /* Globals */
+
 body {
-	font-family: "Roboto" ,  sans-serif;
 	margin: 0;
 	padding:0;
-}
-
-
-header{
-	width: 100vw;
-	height: 25vw;	
-}
-
-h1{
-	color: $footer_bgcolour;
-}
-
-h3{
-	font-size: x-large;
-}
-
-p{
-	color:$textcolour;
 }
 
 
@@ -58,7 +40,9 @@ p{
 	 width: 100vw;
 	 height: 500px;
 
-/* from CSS-tricks  */
+
+	
+/* background gradient from CSS-tricks  */
 	background: 
     linear-gradient(
       rgba(0, 0, 0, 0), 
@@ -88,20 +72,22 @@ p{
 }
 
 
-/*menu from css-tricks */
-nav {
-	margin-left:30%;
-	margin-right: 30%;
+
+/* menu from https:labs.jensimmons.com/2017/01-003.html */
+.responsive_nav {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 5%;
- } 
+	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+	grid-gap: 0.25rem;
+	margin-left:20%;
+	margin-right: 20%;
+} 
   
  a{
     color: #fff;
     text-decoration: none;
     padding: 10px 0;
     text-align: center; 
+    
 }
 
 a:visited{
@@ -117,54 +103,58 @@ a:active{
 }
 
 
-/* About */
+
+/* All pages*/
+
+.blurb{
+		font-family: "Roboto" ,  sans-serif;
+		width: 75%;
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 0 2rem 0 2rem;
+		text-align: justify;
+		color: $textcolour;
+		line-height: 1.4;
+}
+
 .page-title{
 	text-align: center;
-	color:$pageheadercolour;
 	margin: 3rem 0 4rem 0;
 }
 
-@media screen and (min-width: 730px){
-.about{
-	display:grid;
-	width:auto;
-	max-width: 1000px;
-	margin: 0 auto;
-	/*grid-template-columns: 1fr 3fr;
-	grid-column-gap: 5%; */
+h1{
+	color: $footer_bgcolour;
+}
+
+h2{
+	color:$footer_bgcolour;
+	margin-bottom: 0;
+}
+
+h3{
+	font-size: x-large;
+}
+
+h4{
+	color:$footer_bgcolour;	
+	margin-bottom: 0;
+}
+	
+p{
+	color:$textcolour;
 }
 
 
+/* Welcome */
 .mugshot{
-	grid-column-start: 1;
-	justify-self: center;
-	padding-left: 2rem;
-	margin-right: 3rem;
-
-}
-
-.blurb {
-	grid-column-start:2; 
-	line-height: 1.4;
-	padding-right: 2rem;
-	text-align: justify;
-	color: $textcolour;
-	}
-}
-
-@media screen and (max-width: 730px){
-	img.marian{
 		float: left;
-		padding: 2rem;
+		margin-right: 3rem;
 }
 
-	.blurb{
-		padding: 0 2rem 0 3rem;
-		text-align: justify;
-		color: $textcolour;
-	}
-}
 
+/* About  */	
+
+/* Testimonials */
 
 /*  Gallery  */
 .flex-container {
@@ -189,57 +179,6 @@ a:active{
   text-align: center;
   line-height: 75px;
   font-size: 30px;
-}
-
-
-/* Services */
-.services{
-	width: 80%;
-	max-width: 1000px;
-	margin: auto;
-	text-align: justify;
-}
-
-.services_headline{
-	font-family: "Playfair Display", serif;
-	font-weight: bold;
-	font-size: 5 rem;
-	color: $pageheadercolour;
-}
-
-.services h3{
-	color: $h3color;
-	margin: 2.2rem 0 .8rem 0;
-	font-size: 1.3rem;
-}
-
-.services h2{
-	color: $strapline;	
-}
-
-
-.services ul{
-	
-	color: $listcolour;
-	padding-left: 20%;
-}
-
-
-/*Welcome - index.html */
-
-.welcome{
-	margin: auto;
-	width: 75%;
-	max-width: 1000px;
-	line-height: 2;
-}
-
-.welcome h2{
-	color:$footer_bgcolour;
-}
-
-.welcome p{
-	color: $textcolour;
 }
 
 
@@ -297,3 +236,5 @@ a:active{
 		padding: 3rem;		
 	
 }
+
+
