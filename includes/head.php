@@ -36,6 +36,7 @@
 	  <a href="about.php">About us</a>
 	  <a href="packages.php">Packages</a> 
 	  <a href="testimonials.php">Testimonials</a> 
+	  <a href="gallery.php">Gallery</a> 
 	  <a href="https://www.facebook.com/sunweddingsportugal/?__tn__=%2Cd%2CP-R&eid=ARA-kiqHDF8WoJUn0hoi_KOJ804pFpC_59Cpcq5ymMxOOgtHeJFBeKH1DR-AFbLXCJ_dqnHxM61xsXbV" target="_blank">Blog</a>
 	  <a href="contact.php">Contact us</a>
 </nav>
