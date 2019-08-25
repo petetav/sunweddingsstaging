@@ -163,60 +163,35 @@ h3{
 /* Testimonials */
 	.testimonials_grid{
 		display: grid;
-		grid-template-columns:  2fr 3fr;
+		grid-template-columns: minmax(200px, 2fr) minmax(300px, 3fr);
 		grid-gap: 5%;
-		align-items: center; 
-		margin-bottom: 5%;
+		align-items:  top; 
+		
 
 
 	.img{
 		display: block;
 		width: 100%;
 		height: auto;
-		object-fit:contain;
-		margin-top: 20px;	
+		object-fit:contain;	
 	}
 	
+	.txt h4{
+		margin-top: 0;
+	}
 	
 }
 
-	
-	.testimonials_bottom{
-		display:block;
-		width: 100%;
-		height: auto;
-		margin: auto;
-		position: relative;
-		margin-bottom: 50px;
+@media screen and (max-width: 700px){
+		.testimonials_grid{
+			display: block;
 	}
-/*  Gallery  */
-/*.flex-container {
-  width:70%;
-  max-width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  height: auto;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  background-color: lightgray;
-  grid-template-columns: minmax(100px, 200px) 1fr 1fr;
-  justify-content: space-between;
+		.txt{
+			margin-bottom: 60px;
+		}
 }
-
-.flex-container > div {
-  flex-grow: 1;
-  background-color: #f1f1f1;
-  width: 200px;
-  height:200px;
-  margin:10px 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-*/
 
 /*  footer */
-
 .footer{
 
 	text-align: center;

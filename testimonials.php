@@ -10,9 +10,9 @@
 
 <!--blurb-->	
 <section class="blurb">
-	
+<br>	
 <h2 class="testimonials">Testimonials</h2>
-
+<br>
 <main class="testimonials_grid">
 <img src="images_testimonials/donagh%20&%20sarah.png" alt="donagh & sarah" width="100%">
 
@@ -49,14 +49,15 @@ Thank you Marian!"</p>
 
 
 <!--next couple -->
+
 <img src="images_testimonials/Faye%20&%20Sam.png" alt="Faye & Sam" width="100%" height="auto" margin-bottom="20px">
 
 <div class="txt">
 <h4>14th June 2018 - Faye and Sam</h4>
 <p>"Marian was so so lovely on our wedding day in Portugal back in June. She planned it and was also our celebrant. She was really good with our two small babies as well and was so friendly and made us feel very comfortable and at ease. I would highly recommend her as a planner and to perform your wedding ceremony and also her husband was our photographer and he was so nice and friendly we had so much fun working with him. We loved working with them both.<br>
 Thank you both so much X"</p>
-<h4>If you'd like to see more comments and the latest goings on head across to our blog page</h4>
-<br><br><br><br><br>
+<h4>If you'd like to see more comments and the latest goings-on head across to our blog page</h4>
+<br><br><br><br>
 </div>
 
 
