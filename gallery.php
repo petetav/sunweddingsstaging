@@ -10,6 +10,7 @@
 
 <!--blurb-->	
 <section class="blurb">
+	
 <h2>Photo gallery</h2>
 <h4>A few of the fantastic venues and occasions we've planned recently</h4>
 <br><br>
@@ -139,6 +140,7 @@
 -->
 
 </main>	
+
 	<br><br><br>
 </section>
 <!-- end of blurb -->
