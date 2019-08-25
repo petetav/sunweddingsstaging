@@ -7,11 +7,17 @@ body {
 /*top header */
 @media screen and (min-width: 730px) {
   .top-text {
-    text-align: right;
-    margin-right: 10vw;
+    /*text-align: right;*/
+    /*margin-right: 10vw; */
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
     padding-top: 2rem;
-    font-size: .8rem;
-    color: white; } }
+    font-size: .8rem; }
+  .top-text p {
+    color: white; }
+  .top-text-right p {
+    float: right; } }
 
 @media screen and (max-width: 730px) {
   .top-text {
@@ -71,8 +77,10 @@ a:active {
 .blurb {
   font-family: "Roboto" ,  sans-serif;
   width: 75%;
+  height: auto;
   max-width: 1000px;
   margin: 0 auto;
+  margin-bottom: 30px;
   padding: 0 2rem 0 2rem;
   text-align: justify;
   color: grey;
@@ -82,22 +90,12 @@ a:active {
   text-align: center;
   margin: 3rem 0 4rem 0; }
 
-h1 {
-  color: #08225e; }
-
-h2 {
+h1, h2, h4 {
   color: #08225e;
   margin-bottom: 0; }
 
 h3 {
   font-size: x-large; }
-
-h4 {
-  color: #08225e;
-  margin-bottom: 0; }
-
-p {
-  color: grey; }
 
 /* Welcome */
 .mugshot {
@@ -106,9 +104,30 @@ p {
 
 /* About  */
 /* Testimonials */
+.testimonials_grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 5%;
+  align-items: center;
+  margin-bottom: 5%; }
+  .testimonials_grid .img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 20px; }
+
+.testimonials_bottom {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  margin-bottom: 50px; }
+
 /*  Gallery  */
-.flex-container {
-  width: 70%;
+/*.flex-container {
+  width:70%;
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
@@ -117,18 +136,20 @@ p {
   align-content: flex-start;
   background-color: lightgray;
   grid-template-columns: minmax(100px, 200px) 1fr 1fr;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .flex-container > div {
   flex-grow: 1;
   background-color: #f1f1f1;
   width: 200px;
-  height: 200px;
-  margin: 10px 10px;
+  height:200px;
+  margin:10px 10px;
   text-align: center;
   line-height: 75px;
-  font-size: 30px; }
-
+  font-size: 30px;
+}
+*/
 /*  footer */
 .footer {
   text-align: center;
