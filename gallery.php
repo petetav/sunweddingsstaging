@@ -44,13 +44,13 @@
 <img src="image_gallery/22196059-359680857805008-2860716196952509723-n_orig.jpg" alt="22196059-359680857805008-2860716196952509723-n_orig" width="960" height="720" >
 <img src="image_gallery/22228558-359680764471684-1370949245564777075-n_orig.jpg" alt="22228558-359680764471684-1370949245564777075-n_orig" width="960" height="540" >
 <img src="image_gallery/36319084-1750364951715100-7664285177396330496-n-1_orig.jpg" alt="36319084-1750364951715100-7664285177396330496-n-1_orig" width="960" height="640" >
-<img src="image_gallery/37072695_1774263865991875_8039025356054724608_n.jpg" alt="37072695_1774263865991875_8039025356054724608_n" width="960" height="640" >
-<img src="image_gallery/37078649-1774263852658543-5081166389587214336-n_orig.jpg" alt="37078649-1774263852658543-5081166389587214336-n_orig" width="750" height="482" >
+<!--<img src="image_gallery/37072695_1774263865991875_8039025356054724608_n.jpg" alt="37072695_1774263865991875_8039025356054724608_n" width="960" height="640" > -->
+<!--<img src="image_gallery/37078649-1774263852658543-5081166389587214336-n_orig.jpg" alt="37078649-1774263852658543-5081166389587214336-n_orig" width="750" height="482" > -->
 <img src="image_gallery/46469977_1954162121299064_8472783650990063616_n.jpg" alt="46469977_1954162121299064_8472783650990063616_n" width="960" height="640" >
 <img src="image_gallery/47360983_576578966115195_4104245880196956160_n.jpg" alt="47360983_576578966115195_4104245880196956160_n" width="960" height="960" >
 <img src="image_gallery/51626835_2063822293733912_6353932793310871552_n.jpg" alt="51626835_2063822293733912_6353932793310871552_n" width="960" height="640" >
-<img src="image_gallery/60216221_664005914039166_725502912112885760_n.jpg" alt="60216221_664005914039166_725502912112885760_n" width="960" height="640" >
-<img src="image_gallery/60302599_664005847372506_8244961165222871040_n.jpg" alt="60302599_664005847372506_8244961165222871040_n" width="960" height="641" >
+<!--<img src="image_gallery/60216221_664005914039166_725502912112885760_n.jpg" alt="60216221_664005914039166_725502912112885760_n" width="960" height="640" > -->
+<!--<img src="image_gallery/60302599_664005847372506_8244961165222871040_n.jpg" alt="60302599_664005847372506_8244961165222871040_n" width="960" height="641" > -->
 <img src="image_gallery/60388520_664005840705840_8974154575229485056_n.jpg" alt="60388520_664005840705840_8974154575229485056_n" width="960" height="960" >
 <img src="image_gallery/65309573_690347804738310_1650215873522171904_n.jpg" alt="65309573_690347804738310_1650215873522171904_n" width="960" height="960" >
 <img src="image_gallery/67619529_711506049289152_726184622207008768_n.jpg" alt="67619529_711506049289152_726184622207008768_n" width="960" height="960" >
@@ -59,11 +59,11 @@
 <img src="image_gallery/336999275.jpg" alt="336999275" width="2000" height="1335" >
 <img src="image_gallery/across-the-pool_orig.jpg" alt="across-the-pool_orig" width="723" height="480" >
 <img src="image_gallery/annie-and-vince_1_orig.jpg" alt="annie-and-vince_1_orig" width="960" height="640" >
-<img src="image_gallery/annie-and-vince_1.jpg" alt="annie-and-vince_1" width="400" height="267" >
-<img src="image_gallery/aoife-and-richie_orig.jpg" alt="aoife-and-richie_orig" width="540" height="960" >
+<!-- <img src="image_gallery/annie-and-vince_1.jpg" alt="annie-and-vince_1" width="400" height="267" > -->
+<!-- <img src="image_gallery/aoife-and-richie_orig.jpg" alt="aoife-and-richie_orig" width="540" height="960" >-->
 <img src="image_gallery/aoife2_orig.jpg" alt="aoife2_orig" width="960" height="720" >
 <img src="image_gallery/back-terrace_orig.jpg" alt="back-terrace_orig" width="1024" height="682" >
-<img src="image_gallery/back-terrace.jpg" alt="back-terrace" width="400" height="266" >
+<!--<img src="image_gallery/back-terrace.jpg" alt="back-terrace" width="400" height="266" > -->
 <img src="image_gallery/bahia-beach-bar_orig.jpg" alt="bahia-beach-bar_orig" width="550" height="413" >
 <img src="image_gallery/bardoreal_orig.jpg" alt="bardoreal_orig" width="373" height="248" >
 <img src="image_gallery/canico-2_orig.jpg" alt="canico-2_orig" width="345" height="230" >
@@ -79,7 +79,7 @@
 <img src="image_gallery/ciarajohn1168-1024x684_orig.jpg" alt="ciarajohn1168-1024x684_orig" width="1024" height="684" >
 <img src="image_gallery/ciarajohn1258-768x1150_orig.jpg" alt="ciarajohn1258-768x1150_orig" width="768" height="1150" >
 <img src="image_gallery/ciarajohn1309-1024x684_orig.jpg" alt="ciarajohn1309-1024x684_orig" width="1024" height="684" >
-<img src="image_gallery/ciarajohn1309-1024x684.jpg" alt="ciarajohn1309-1024x684" width="400" height="267" >
+<!--<img src="image_gallery/ciarajohn1309-1024x684.jpg" alt="ciarajohn1309-1024x684" width="400" height="267" >-->
 <img src="image_gallery/ciarajohn1389-768x1150_orig.jpg" alt="ciarajohn1389-768x1150_orig" width="768" height="1150" >
 <img src="image_gallery/ciarajohn1424-1024x684_orig.jpg" alt="ciarajohn1424-1024x684_orig" width="1024" height="684" >
 <img src="image_gallery/ciarajohn1551-1024x533_orig.jpg" alt="ciarajohn1551-1024x533_orig" width="1024" height="533" >
@@ -102,9 +102,9 @@
 <img src="image_gallery/lux199po107452_orig.jpg" alt="lux199po107452_orig" width="1100" height="619" >
 <img src="image_gallery/lux199re107442_orig.jpg" alt="lux199re107442_orig" width="1100" height="619" >
 <img src="image_gallery/margaret-and-michael_1_orig.jpg" alt="margaret-and-michael_1_orig" width="960" height="720" >
-<img src="image_gallery/maria-s-restaurant_1_orig.jpg" alt="maria-s-restaurant_1_orig" width="550" height="367" >
+<!--<img src="image_gallery/maria-s-restaurant_1_orig.jpg" alt="maria-s-restaurant_1_orig" width="550" height="367" > -->
 <img src="image_gallery/maria-s-restaurant_orig.jpg" alt="maria-s-restaurant_orig" width="550" height="367" >
-<img src="image_gallery/marian_1_orig.jpg" alt="marian_1_orig" width="163" height="243" >
+<!--<img src="image_gallery/marian_1_orig.jpg" alt="marian_1_orig" width="163" height="243" > -->
 <img src="image_gallery/new-839_orig.jpg" alt="new-839_orig" width="1100" height="733" >
 <img src="image_gallery/no-20-110730-spainexteriors2-151-0_1.jpg" alt="no-20-110730-spainexteriors2-151-0_1" width="400" height="266" >
 <img src="image_gallery/nosoloagua-club-restaurant-10879_1_orig.jpg" alt="nosoloagua-club-restaurant-10879_1_orig" width="768" height="576" >
@@ -115,7 +115,7 @@
 <img src="image_gallery/portugal3_orig.jpg" alt="portugal3_orig" width="630" height="280" >
 <img src="image_gallery/poster_orig.jpg" alt="poster_orig" width="960" height="640" >
 <img src="image_gallery/poster-jemma-and-craig_orig.jpg" alt="poster-jemma-and-craig_orig" width="960" height="641" >
-<img src="image_gallery/poster.jpg" alt="poster" width="400" height="267" >
+<!--<img src="image_gallery/poster.jpg" alt="poster" width="400" height="267" > -->
 <img src="image_gallery/prainha-clube_orig.jpg" alt="prainha-clube_orig" width="550" height="309" >
 <img src="image_gallery/pv-restuarante-o-infante-panoramico_orig.jpg" alt="pv-restuarante-o-infante-panoramico_orig" width="720" height="400" >
 <img src="image_gallery/quinta-dos-vales-wine_orig.jpg" alt="quinta-dos-vales-wine_orig" width="550" height="412" >

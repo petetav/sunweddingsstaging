@@ -138,9 +138,9 @@ h3 {
   margin-top: 5px; }
 
 .footer_content {
+  position: absolute;
   display: inline-block;
-  text-align: center;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 10px;
   color: #ccde58;
   font-size: .8rem; }
