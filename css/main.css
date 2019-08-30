@@ -31,7 +31,7 @@ body {
   width: 100vw;
   height: 500px;
   /* background gradient from CSS-tricks  */
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.6)), url(../images/beach-view-tinied.jpg);
+  background: linear-gradient(transparent, transparent), url(../images/beach-view-tinied.jpg);
   background-size: cover;
   /*background-position: */
   background-repeat: no-repeat;
@@ -60,10 +60,20 @@ body {
 
 a {
   color: #fff;
+  background-image: radial-gradient(rgba(8, 34, 94, 0.7), rgba(8, 34, 94, 0));
+  border-radius: 25px;
   text-decoration: none;
   padding: 10px 0;
   text-align: center; }
 
+/*from CSS tricks 
+.gradient {
+  background-image:
+    radial-gradient(
+      yellow,
+      #f06d06
+    );
+} */
 a:visited {
   color: light grey; }
 
@@ -125,19 +135,24 @@ h3 {
 
 /*  footer */
 .footer {
-  text-align: center;
+  /*text-align: center; */
   position: fixed;
   bottom: 0;
   width: 100vw;
   height: 30px;
-  color: white;
   background-color: #08225e; }
+
+.footer_content {
+  width: 20rem;
+  height: auto;
+  margin: auto;
+  margin-bottom: 10px; }
 
 .footer img {
   margin-right: 20px;
   margin-top: 5px; }
 
-.footer_content {
+.footer_txt {
   position: absolute;
   display: inline-block;
   margin-top: 10px;

@@ -19,20 +19,12 @@
 
 
 <body>
-	<!-- <header class="banner">
-		<p class="top-text">Algarve's Elite  Event <br>&amp; Wedding Planners</p>
-	
-		<div class="tile_and_menu">
-		<p class="title">
-			SUN WEDDINGS PORTUGAL
-		</p>
-	-->
-	
+		
 	<header class="banner">
 	
 	<div class="top-text">
-		<div class="top-text-right"><p>Algarve's Elite  Event <br>&amp; Wedding Planners</p></div
-		<div class="top-text-left"><p>Algarve's Elite  Event <br>&amp; Wedding Planners</p></div>
+		 <div class="top-text-right"><p>Algarve's Elite  Event <br>&amp; Wedding Planners</p></div 
+		 <div class="top-text-left"><p>Algarve's Elite  Event <br>&amp; Wedding Planners</p></div>
 	</div>
 	
 		<div class="tile_and_menu">
