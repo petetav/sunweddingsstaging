@@ -27,9 +27,14 @@ body {
 		font-size: .8rem;
 	}
 	
-	.top-text p{
+	.top-text-right p{
 		color: white;
 	}
+	
+	.top-text-left p{
+		color: $footer_bgcolour;
+	}
+	
 	
 	.top-text-right p{
 		float: right;
@@ -60,10 +65,12 @@ body {
       rgba(0, 0, 0, 0), 
       rgba(0, 0, 0, 0)
     ),
- url(../images/beach-view-tinied.jpg);
+ /*url(../images/beach-view-tinied.jpg); */
+ url(../images/kiss_on_beach_under_arch-centre-cropped_tiny.jpg);
  	background-size: cover;
  	/*background-position: */
 	 background-repeat: no-repeat;
+	 background-position: center;
 	 overflow: hidden;
 }
  
@@ -97,10 +104,11 @@ body {
  a{
     color: #fff;
     background-image: 
-    	radial-gradient(rgba(8,34,94, .7),rgba(8,34,94,0) ); 
+    	/*radial-gradient(rgba(8,34,94, .7),rgba(8,34,94,0) ); */
+    	radial-gradient(rgba(0,0,0, .3),rgba(0,0,0, 0) ); 
 	border-radius: 25px;
     text-decoration: none;
-    padding: 10px 0;
+    padding: 5px 0;
     text-align: center; 
     
 }
