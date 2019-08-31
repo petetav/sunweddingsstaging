@@ -7,6 +7,15 @@
 	<meta name="description" content="Wedding planning is our business and we've got a load of experience at it. If you want a professional Irish businesswoman, I'm here for you :) ">
 	
 <?php include ("includes/head.php"); ?>
+<style>
+	
+	.banner{
+		background-image:url(images/in_benagil_cave.jpg);
+}
+
+</style>
+
+</head>
 
 <!--blurb-->	
 <section class="blurb">
@@ -56,8 +65,20 @@ Thank you Marian!"</p>
 <h4>14th June 2018 - Faye and Sam</h4>
 <p>"Marian was so so lovely on our wedding day in Portugal back in June. She planned it and was also our celebrant. She was really good with our two small babies as well and was so friendly and made us feel very comfortable and at ease. I would highly recommend her as a planner and to perform your wedding ceremony and also her husband was our photographer and he was so nice and friendly we had so much fun working with him. We loved working with them both.<br>
 Thank you both so much X"</p>
+<br>
+</div>
+
+<!--next couple -->
+
+<img src="images_testimonials/Melissa%20and%20Ruirdhri-2.jpg" alt="Melissa and Ruirdhri" width="100%" height="auto" margin-bottom="20px" >
+
+<div class="txt">
+<h4>14th June 2018 - Melissa and Ruirdhri</h4>
+<br>
 
 <img src="images_testimonials/testimonial%20card.png" alt="testimonial card" width="100%" height="auto" >
+ 
+<br><br>
 
 <h4>If you'd like to see more comments and the latest goings-on head across to our blog page</h4>
 <br><br><br><br>

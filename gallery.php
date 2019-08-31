@@ -7,7 +7,15 @@
 	<meta name="description" content="Wedding planning is our business and we've got a load of experience at it. If you want a professional Irish businesswoman, I'm here for you :) ">
 <link rel="stylesheet" type="text/css" href="css/gallery.css">
 <?php include ("includes/head.php"); ?>
+<style>
+	
+	.banner{
+		background-image:url(images/estuary_gull-tiny.jpg);
+}
 
+</style>
+
+</head>
 <!--blurb-->	
 <section class="blurb">
 	

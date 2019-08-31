@@ -7,7 +7,22 @@
 	<meta name="description" content="Wedding planning is our business and we've got a load of experience at it. If you want a professional Irish businesswoman, I'm here for you :) ">
 	
 <?php include ("includes/head.php"); ?>
+<style>
+	
+	.banner{
+		background-image:url(images/on_cliffs_looking_out_to_sea_stretched-tiny.jpg);
+		background-position: left top;
+}
+	.top-text-left p{
+		display: none;
+	}
+	
+	.top-text-right p{
+		color: #08225e;
+	}
+</style>
 
+</head>
 <!--blurb-->	
 <section class="blurb">
 <h2>Packages</h2>

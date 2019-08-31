@@ -14,132 +14,7 @@ body {
 	padding:0;
 }
 
-
-/*top header */
-@media screen and (min-width: 730px)
-{ .top-text{
-		/*text-align: right;*/
-		/*margin-right: 10vw; */
-		width:80%;
-		max-width: 1000px;
-		margin:auto;
-		padding-top: 2rem;
-		font-size: .8rem;
-	}
-	
-	.top-text-right p{
-		color: white;
-	}
-	
-	.top-text-left p{
-		color: $footer_bgcolour;
-	}
-	
-	
-	.top-text-right p{
-		float: right;
-	}
-	
-		
- }
- 
-@media screen and (max-width: 730px)
-{ .top-text{
-		display: none;	}	
- }
- 
- 
- /*banner header  */
- .banner{
- 	position: relative;
-	 margin: 0;
-	 padding: 0;
-	 width: 100vw;
-	 height: 500px;
-
-
-	
-/* background gradient from CSS-tricks  */
-	background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0), 
-      rgba(0, 0, 0, 0)
-    ),
- /*url(../images/beach-view-tinied.jpg); */
- url(../images/kiss_on_beach_under_arch-centre-cropped_tiny.jpg);
- 	background-size: cover;
- 	/*background-position: */
-	 background-repeat: no-repeat;
-	 background-position: center;
-	 overflow: hidden;
-}
- 
- .title_and_menu{
-	 width:500px;
-	 max-width: 800px;
-	 height:auto;
-
- }
-.title{
-	font-family: 'Playfair Display', serif;
-	text-align: center;
-	color: white;
-	padding-top:  12%;
-	text-transform: uppercase;
-	font-size: 45px;
-	
-}
-
-
-
-/* menu from https:labs.jensimmons.com/2017/01-003.html */
-.responsive_nav {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-	grid-gap: 0.25rem;
-	margin-left:20%;
-	margin-right: 20%;
-} 
-  
- a{
-    color: #fff;
-    background-image: 
-    	/*radial-gradient(rgba(8,34,94, .7),rgba(8,34,94,0) ); */
-    	radial-gradient(rgba(0,0,0, .3),rgba(0,0,0, 0) ); 
-	border-radius: 25px;
-    text-decoration: none;
-    padding: 5px 0;
-    text-align: center; 
-    
-}
-
-/*from CSS tricks 
-.gradient {
-  background-image:
-    radial-gradient(
-      yellow,
-      #f06d06
-    );
-} */
-
-a:visited{
-	color: light grey;
-}
-
-a:hover{
-	border-bottom: 3px solid white;
-}
-
-a:active{ 
-	color: green;
-}
-
-
-
 /* All pages*/
-
-
-
 .blurb{
 		font-family: "Roboto" ,  sans-serif;
 		width: 75%;
@@ -169,7 +44,122 @@ h3{
 	font-size: x-large;
 }
 
+/*top header */
+@media screen and (min-width: 730px)
+{ .top-text{
+		/*text-align: right;*/
+		/*margin-right: 10vw; */
+		width:80%;
+		max-width: 1000px;
+		margin:auto;
+		padding-top: 2rem;
+		font-size: .8rem;
+	}
 	
+	.top-text-right p{
+		color: white;
+		float: right;
+	}
+	
+	.top-text-left p{
+		color: $footer_bgcolour;
+		
+	}	
+}
+ 
+@media screen and (max-width: 730px)
+{ .top-text{
+		display: none;	}	
+ }
+ 
+ 
+ /*banner header  */
+ .banner{
+ 	position: relative;
+	 margin: 0;
+	 padding: 0;
+	 width: 100vw;
+	 height: 500px;
+
+
+	
+/* background gradient from CSS-tricks  
+	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, 0)
+    ),
+ /*url(../images/beach-view-tinied.jpg); */
+ 
+ 	background-size: cover;
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 overflow: hidden;
+	}
+
+ 
+ .title_and_menu{
+	 width:500px;
+	 max-width: 800px;
+	 height:auto;
+
+ }
+.title{
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	color: white;
+	padding-top:  12%;
+	text-transform: uppercase;
+	font-size: 45px;
+	
+}
+
+
+
+/* menu from https:labs.jensimmons.com/
+2017/01-003.html */
+.responsive_nav {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+	grid-gap: 0.25rem;
+	margin-left:20%;
+	margin-right: 20%;
+} 
+  
+ a{
+    color: #fff;
+    background-image: 
+    	/*radial-gradient(rgba(8,34,94, .7),rgba(8,34,94,0) ); */
+    	radial-gradient(rgba(0,0,0, .3),rgba(0,0,0, 0) ); 
+	border-radius: 25px;
+    text-decoration: none;
+    padding: 3% 0;
+    text-align: center; 
+    
+}
+
+/*from CSS tricks 
+.gradient {
+  background-image:
+    radial-gradient(
+      yellow,
+      #f06d06
+    );
+} */
+
+a:visited{
+	color: light grey;
+}
+
+a:hover{
+	border-bottom: 3px solid white;
+}
+
+a:active{ 
+	color: green;
+}
+
+
 
 /* Welcome */
 .mugshot{

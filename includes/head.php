@@ -15,7 +15,9 @@
 	<link rel="manifest" href="icons/site.webmanifest">
 	
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
+	
+	
+
 
 
 <body>
@@ -23,7 +25,7 @@
 	<header class="banner">
 	
 	<div class="top-text">
-		 <div class="top-text-right"><p>Algarve's Elite  Event <br>&amp; Wedding Planners</p></div 
+		 <div class="top-text-right"><p>Algarve's Elite  Event <br>&amp; Wedding Planners</p></div> 
 		 <div class="top-text-left"><p>Algarve's Elite  Event <br>&amp; Wedding Planners</p></div>
 	</div>
 	

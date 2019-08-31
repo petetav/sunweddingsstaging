@@ -7,6 +7,15 @@
 	<meta name="description" content="Wedding planning is our business and we've got a load of experience at it. If you want a professional Irish businesswoman, I'm here for you :) ">
 	
 <?php include ("includes/head.php"); ?>
+<style>
+	
+	.banner{
+		background-image:url(images/kiss_on_beach_under_arch-centre-cropped_tiny.jpg);
+}
+
+</style>
+
+</head>
 
 <!--blurb-->	
 <section class="blurb">

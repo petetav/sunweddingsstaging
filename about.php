@@ -9,7 +9,15 @@
 	<!-- From CSS-tricks -->
 	<!-- facebook and Twitter-->
 <?php include ("includes/head.php"); ?>		
+<style>
 	
+	.banner{
+		background-image:url(images/her_back_on_the_beach-tinied.jpg);
+}
+
+</style>
+
+</head>	
 		
 <!--blurb-->	
 					
