@@ -7,7 +7,7 @@
 	<meta name="description" content="Wedding planning is our business and we've got a load of experience at it. If you want a professional Irish businesswoman, I'm here for you :) ">
 	
 <?php include ("includes/head.php"); ?>
-
+</head>
 <!--blurb-->	
 
 <!-- end of blurb -->
